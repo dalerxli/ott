@@ -7,6 +7,4 @@ function x = isodd(input)
 %
 % PACKAGE_INFO
 
-warning('this function will move to ott.utils.isodd');
-
 x = mod(input,2);

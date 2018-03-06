@@ -19,14 +19,14 @@ if nargin < 6
 end
 
 % Convert points to spherical coordinates
-[r,theta,phi] = xyz2rtp(x,y,z);
+[r,theta,phi] = ott.utils.xyz2rtp(x,y,z);
 
-%Jacobian for catesian to spherical unit vectors.
+%Jacobian for Cartesian to spherical unit vectors
 J=[sin(theta).*cos(phi),sin(theta).*sin(phi),cos(theta);...
     cos(theta).*cos(phi),cos(theta).*sin(phi),-sin(theta);...
     -sin(phi),cos(phi),zeros(size(theta))];
 
-%Pack cartesian vector field.
+%Pack Cartesian vector field
 xyzv=[xv,yv,zv];
 
 %Separate the Jacobian and multiply for each unit vector.
@@ -38,6 +38,3 @@ if nargout < 3
    rv = [ rv thetav phiv ];
    thetav = [ r theta phi ];
 end
-
-return
-

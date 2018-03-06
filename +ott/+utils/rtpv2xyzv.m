@@ -19,7 +19,7 @@ if nargin < 6
 end
 
 % Convert points to cartesian coordinates
-[x,y,z] = rtp2xyz(r,theta,phi);
+[x,y,z] = ott.utils.rtp2xyz(r,theta,phi);
 
 %Calculate the Jacobian for spherical to cartesian unit vectors
 %(transpose of catesian to spherical).
@@ -39,6 +39,3 @@ if nargout < 3
    xv = [ xv yv zv ];
    yv = [ x y z ];
 end
-
-return
-

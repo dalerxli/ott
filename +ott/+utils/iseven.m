@@ -7,7 +7,4 @@ function x = iseven(input)
 %
 % PACKAGE_INFO
 
-warning('This function will be moved to ott.utils.iseven');
-
 x = mod(mod(input,2)+1,2);
-

@@ -15,8 +15,6 @@ function [x,y,z] = rtp2xyz(r,theta,phi)
 %
 % PACKAGE INFO
 
-warning('this function will move to ott.utils.rtp2xyz');
-
 if nargin == 1
    theta = r(:,2);
    phi = r(:,3);
@@ -35,5 +33,3 @@ if nargout == 1
    z = z(:);
    x = [ x y z ];
 end
-
-return
