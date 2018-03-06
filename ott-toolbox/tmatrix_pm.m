@@ -15,6 +15,8 @@ function [T,T2] = tmatrix_pm(Nmax,k_medium,k_particle,shape,parameters)
 %
 % PACKAGE INFO
 
+import utils.*
+
 verbose = 0;
 
 % Do we have a shape rotationally symmetric about the z-axis?

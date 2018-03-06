@@ -29,6 +29,8 @@ function [nn,mm,a,b] = bsc_bessel_farfield( nmax, beam_type, parameters )
 %
 % PACKAGE INFO
 
+import utils.*
+
 axisymmetry = 1;
 %axisymmetry = 0;
 

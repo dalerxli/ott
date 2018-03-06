@@ -15,6 +15,8 @@ function [IGo,IGe]=igmode(p,m,xi,x,y,z,theta);
 %
 % PACKAGE INFO
 
+import utils.*
+
 if nargin<7
     theta=atan(1/pi)*180/pi;
 end

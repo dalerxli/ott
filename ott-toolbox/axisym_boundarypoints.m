@@ -8,6 +8,8 @@ function [rtp,n,ds]=axisym_boundarypoints(Nmax,rho,z);
 %
 % PACKAGE INFO
 
+import utils.*
+
 % %%%%test values
 % ntheta=500;
 % rho=[0,1,1,0];

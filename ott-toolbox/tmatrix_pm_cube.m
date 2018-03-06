@@ -17,6 +17,8 @@ function [T,T2] = tmatrix_pm_cube(Nmax,Nmax_medium,Nmax_particle,k_medium,k_part
 %
 % PACKAGE INFO
 
+import utils.*
+
 verbose = 0;
 shape=4;
 

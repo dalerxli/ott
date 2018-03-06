@@ -23,6 +23,8 @@ function [r,n,rotsym,xyz_vec] = shapesurface(theta,phi,shape,parameters)
 %
 % PACKAGE INFO
 
+import utils.*
+
 % For a surface defined by
 % r = r(theta,phi)
 % the surface area element and normal are

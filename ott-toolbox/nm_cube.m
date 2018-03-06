@@ -3,6 +3,8 @@ function [ncube,mcube,cicube]=nm_cube(n,m,Nmax)
 %
 % PACKAGE INFO
 
+import utils.*
+
 %n = 1;
 %m = 2;
 %Nmax = 20;

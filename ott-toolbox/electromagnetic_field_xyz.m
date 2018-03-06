@@ -31,6 +31,8 @@ function [structureoutput]=electromagnetic_field_xyz(xyz,nm,ab,pq,cd,relindex,to
 %
 % PACKAGE INFO
 
+import utils.*
+
 verbose=0;
 if ~exist('relindex','var')
     relindex=1;

@@ -14,6 +14,8 @@ function [nn,mm,a,b] = bsc_pointmatch_focalplane( nmax, beam_type, parameters )
 %
 % PACKAGE INFO
 
+import utils.*
+
 zero_rejection_level = 1e-8;
 
 speed_of_light = 3.00e8;
