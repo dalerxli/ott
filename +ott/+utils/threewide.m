@@ -8,7 +8,5 @@ function wide_vector = threewide( a )
 %
 % PACKAGE INFO
 
-warning('this function will move to ott.utils.threewide');
-
 a = a(:);
 wide_vector = [ a a a ];

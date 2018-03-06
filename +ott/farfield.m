@@ -11,6 +11,7 @@ function [E,H] = farfield(n,m,a,b,p,q,theta,phi)
 % PACKAGE_INFO
 
 import ott.*
+import ott.utils.*
 
 [theta,phi] = matchsize(theta,phi);
 

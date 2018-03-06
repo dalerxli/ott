@@ -13,6 +13,7 @@ function [Aperp,Apar] = perpcomponent( A, n )
 % PACKAGE INFO
 
 import ott.*
+import ott.utils.*
 
 % Make n a unit vector
 nmag = dot(n,n,2);

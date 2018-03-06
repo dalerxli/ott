@@ -26,6 +26,7 @@ function [M,N,M2,N2,M3,N3] = vswf(n,m,kr,theta,phi,htype)
 % PACKAGE INFO
 
 import ott.*
+import ott.utils.*
 
 % Check input vectors
 % These must all be of equal length if non-scalar
